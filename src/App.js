@@ -27,7 +27,7 @@ function App() {
         <Switch>
           <PrivateRouter path="/user" component={UsersScreen} exact/>
           <Route path="/register" component={Register}/>
-          <Route path="/Login" component={Login} />
+          <Route path="/" component={Login} />
 
           <PrivateRouter path="*" component={NotFound} />
         </Switch>
