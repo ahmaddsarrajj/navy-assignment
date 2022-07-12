@@ -64,14 +64,7 @@ const UserComponent = () => {
 
                     <div className="card-body">
                       <h5 className="card-title mt-5">{user.email}</h5>
-                      <div className="card-text text-muted">
-                        {user.isAdmin === true ? (
-                          <p className="m-0">Admin</p>
-                        ) : (
-                          <p className="m-0">Customer</p>
-                        )}
-
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
