@@ -2,7 +2,7 @@
   "name": "admin-dashboard",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3333",
+  "proxy": "https://assignmentnavy.herokuapp.com/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
